@@ -56,3 +56,9 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         console.log("Hello World");
     </script>
     ```
+
+4. Before you start writing your project code, you should move it to its own file to keep things organized. Remove your `console.log("Hello World");` line. Then give your now empty `script` element a `src` attribute set to `./script.js`.
+
+    ```html
+    <script src="./script.js"></script>
+    ```
