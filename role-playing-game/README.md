@@ -70,3 +70,11 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
     ```javascript
     let xp = 0;
     ```
+
+7. Initialize another variable called `health` with a value of `100`, and a variable called `gold` with a value of `50`.
+
+    ```javascript
+    let xp = 0;
+    let health = 50;
+    let gold = 50;
+    ```
