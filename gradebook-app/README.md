@@ -89,7 +89,7 @@ In this mini project, you will get to review JavaScript fundamentals like __func
     ```javascript
     function hasPassingGrade(score) {
         return getGrade(score) !== 'F';
-        }
+    }
     ```
     ```javascript
     console.log(hasPassingGrade(100));
@@ -119,6 +119,17 @@ In this mini project, you will get to review JavaScript fundamentals like __func
     - Be careful with the punctuation and spaces in the message.
 
     ```javascript
+    function studentMsg(totalScore, studentScore){
+        if (hasPassingGrade(studentScore)) {
+            return 'Class average: ' + getAverage(totalScore) + '. Your grade: ' + getGrade(studentScore) + '. You passed the course.';
+        } else {
+        return 'Class average: ' + getAverage(totalScore) + '. Your grade: ' + getGrade(studentScore) + '. You failed the course.';
+        }
+    }
+    ```
+    ```javascript
+    console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
 
+    >Class average: 71.7. Your grade: F. You failed the course.
     ```
 
