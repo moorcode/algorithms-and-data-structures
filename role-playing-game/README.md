@@ -11,13 +11,48 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
     ```html
     <!DOCTYPE html>
     <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css">
-        <title>RPG - Dragon Repeller</title>
-    </head>
-    <body>
-    <div id="game"></div>    
-    </body>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="./styles.css">
+            <title>RPG - Dragon Repeller</title>
+        </head>
+        <body>
+            <div id="game">
+            </div>    
+        </body>
     </html>
+    ```
+2. Now you can start writing your JavaScript. Begin by creating a script element.
+
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="./styles.css">
+            <title>RPG - Dragon Repeller</title>
+    ```
+    ```html
+    <script>
+    </script>
+    ```
+    ```html
+        </head>
+        <body>
+            <div id="game">
+            </div>    
+        </body>
+    </html>
+    ```
+
+3. One of the most powerful tools is your developer console. Depending on your browser, this might be opened by pressing `F12` or `Ctrl+Shift+I`. On Mac, you can press `Option + ⌘ + C` and select "Console". You can also click the "Console" button above the preview window to see our built-in console.
+
+    The developer console will include errors that are produced by your code, but you can also use it to see values of variables in your code, which is helpful for debugging.
+
+    Add a `console.log("Hello World");` line between your script tags. Then click the "Console" button to open the console. You should see the text `"Hello World"`.
+
+    ```html
+    <script>
+        console.log("Hello World");
+    </script>
     ```
