@@ -75,6 +75,15 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
 
     ```javascript
     let xp = 0;
-    let health = 50;
+    let health = 100;
     let gold = 50;
+    ```
+
+8. Create another variable called `currentWeaponIndex` and set it to `0`.
+
+    ```javascript
+    let xp = 0;
+    let health = 100;
+    let gold = 50;
+    let currentWeaponIndex = 0;
     ```
