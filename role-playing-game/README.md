@@ -62,3 +62,5 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
     ```html
     <script src="./script.js"></script>
     ```
+
+5. Add your `console.log("Hello World");` line to your `script.js` file, and see it appear in your console.
