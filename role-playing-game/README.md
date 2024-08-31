@@ -64,3 +64,9 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
     ```
 
 5. Add your `console.log("Hello World");` line to your `script.js` file, and see it appear in your console.
+
+6. Remove your console.log("Hello World"); line to begin writing your project code. Use the `let` keyword to declare a variable called `xp` and assign it the value of `0`, a number.
+
+    ```javascript
+    let xp = 0;
+    ```
