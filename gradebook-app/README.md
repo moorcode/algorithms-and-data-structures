@@ -10,8 +10,8 @@ In this mini project, you will get to review JavaScript fundamentals like __func
 
     __Tips__
 
-        - You can use a loop to iterate over the `scores` array and add up all the scores.
-        - You can use the `length` property to get the total number of scores.
+    - You can use a loop to iterate over the `scores` array and add up all the scores.
+    - You can use the `length` property to get the total number of scores.
 
 
 
