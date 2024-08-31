@@ -2,13 +2,18 @@
 
 ## Gradebook App
 
-In this mini project, you will get to review JavaScript fundamentals like functions, variables, conditionals and more by building a gradebook app. This will give you an opportunity to solve small problems and get a better understanding of the basics.
+In this mini project, you will get to review JavaScript fundamentals like __functions__, __variables__, __conditionals__ and more by building a gradebook app. This will give you an opportunity to solve small problems and get a better understanding of the basics.
 
 1. A teacher has finished grading their students' tests and needs your help to calculate the average score for the class.
 
-    Create a `getAverage` function which takes in an array of test `scores` and returns the average score.
+    Create a `getAverage` function which takes in an array of test `scores` and returns the average score.The average is calculated by adding up all the scores and dividing by the total number of scores.
 
-    The average is calculated by adding up all the scores and dividing by the total number of scores.
+    __Tips__
+
+        - You can use a loop to iterate over the `scores` array and add up all the scores.
+        - You can use the `length` property to get the total number of scores.
+
+
 
     ```javascript
     function getAverage(scores) {
