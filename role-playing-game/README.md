@@ -97,3 +97,15 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
     let currentWeaponIndex = 0;
     let fighting;
     ```
+
+10. Declare two more variables named `monsterHealth` and `inventory`. For your `inventory` variable, assign it the value of an array containing the string `'stick'`.
+
+    ```javascript
+    let xp = 0;
+    let health = 100;
+    let gold = 50;
+    let currentWeaponIndex = 0;
+    let fighting;
+    let monsterHealth;
+    let inventory = ['stick'];
+    ```
