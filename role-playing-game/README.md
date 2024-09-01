@@ -586,3 +586,11 @@ Use `const` to create a variable called `locations` and assign it an empty array
 60. Now you can consolidate some of your code. Start by copying the code from inside the `goTown` function and paste it into your `update` function. Then, remove all the code from inside the `goTown` and `goStore` functions.
 
 61. Instead of assigning the `innerText` and `onclick` properties to specific strings and functions, the `update` function will use data from the `location` that is passed into it. First, that data needs to be passed. Inside the `goTown` function, call the `update` function.
+
+62. Now it is time to use your `update` function. Pass in your `locations` array into the `update` function call.
+
+    ```javascript
+    function goTown() {
+        update(locations)
+    }
+    ```
