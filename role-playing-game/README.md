@@ -333,3 +333,20 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         console.log('Fighting dragon.');
     }
     ```
+
+35. Add a single-line comment that says `initialize buttons`.
+
+    ```javascript
+    //initialize buttons
+    function goStore() {
+    console.log('Going to store.');
+    }
+
+    function goCave() {
+        console.log('Going to cave.');
+    }
+
+    function fightDragon() {
+        console.log('Fighting dragon.');
+    }
+    ```
