@@ -268,3 +268,16 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         padding-right: 10px;
     }
     ```
+
+28. Finally, you will need to add some styles for your buttons. Start by setting the `cursor` property to `pointer`. Then set the text `color` to `#0a0a23` and the `background-color` to `#feac32`. Then set the `background-image` property to `linear-gradient(#fecc4c, #ffac33)`. Lastly, set the `border` to `3px solid #feac32`.
+
+    ```css
+    button {
+        cursor: pointer;
+        color: #0a0a23;
+        background-color: #feac32;
+        background-image: linear-gradient(#fecc4c, #ffac33);
+        border: 3px solid #feac32;
+    }
+    ```
+
