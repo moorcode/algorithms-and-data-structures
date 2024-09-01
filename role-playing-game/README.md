@@ -295,3 +295,9 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
     const monsterStats = document.querySelector('#monsterStats');
     const monsterName = document.querySelector('#monsterName');
     ```
+
+30. Finally, use `querySelector()` to get the `#monsterHealth` element. Because you have already declared a `monsterHealth` variable earlier, you need to use a different variable name for this element. Declare a new variable with the `const` keyword and name it `monsterHealthText`.
+
+    ```javascript
+    const monsterHealthText = document.querySelector('#monsterHealth');
+    ```
