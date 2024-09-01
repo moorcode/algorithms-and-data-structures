@@ -19,7 +19,8 @@ const monsterHealthText = document.querySelector('#monsterHealth');
 const locations = [
     {
         name: "town square",
-        "button text": ['Go to store', 'Go to cave', 'Fight dragon']
+        "button text": ['Go to store', 'Go to cave', 'Fight dragon'],
+        "button functions": [button1.onclick = goStore, button2.onclick = goCave, button3.onclick = fightDragon]
     }
 ];
 

@@ -539,3 +539,14 @@ Use `const` to create a variable called `locations` and assign it an empty array
 
 56. Give your empty `button text` array three string elements. Use the three strings being assigned to the button `innerText` properties in the `goTown` function. Remember that array values are separated by commas.
 
+57. Create another property in your object called `button functions`. Give this property an array containing the three functions assigned to the `onclick` properties in the `goTown` function. Remember that these functions are variables, not strings, and should not be wrapped in quotes.
+
+    ```javascript
+    const locations = [
+        {
+            name: "town square",
+            "button text": ['Go to store', 'Go to cave', 'Fight dragon'],
+            "button functions": [button1.onclick = goStore, button2.onclick = goCave, button3.onclick = fightDragon]
+        }
+    ];
+    ```
