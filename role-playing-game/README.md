@@ -214,3 +214,16 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         padding: 10px;
     }
     ```
+
+23. Give your `#game` a maximum width of `500px` and a maximum height of `400px`. Set the `background-color` to `#ffffff` and the `color` to `#ffffff`. Use margins to center it by setting the top margin to `30px`, bottom margin to `0px`, and the left and right margin to `auto`. Finally, give it `10px` of padding on all four sides.
+
+    ```css
+    #game {
+        max-width: 500px;
+        max-height: 400px;
+        background-color: #ffffff;
+        color: #ffffff;
+        margin: 30px auto 0px;
+        padding: 10px;
+    }
+    ```
