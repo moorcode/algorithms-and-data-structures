@@ -260,3 +260,11 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         background-color: #c70d0d;
     }
     ```
+
+27. Next, give your `.stat` elements a `padding-right` of `10px`.
+
+    ```css
+    .stat {
+        padding-right: 10px;
+    }
+    ```
