@@ -683,3 +683,5 @@ This is called bracket notation. Values in an array are accessed by index. Indic
     }
     ```
 
+70. Create two more empty functions named `fightSlime` and `fightBeast`. These functions will be used in your upcoming `cave` object.
+
