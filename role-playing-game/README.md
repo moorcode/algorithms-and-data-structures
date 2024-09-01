@@ -696,3 +696,5 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
         update(locations[2]);
     }
     ```
+
+73. Now that your `"store"` and `"cave"` locations are complete, you can code the actions the player takes at those locations. Inside the `buyHealth` function, set `gold` equal to `gold - 10`.
