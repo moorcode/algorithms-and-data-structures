@@ -425,3 +425,5 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
     ```
 
 42. Create three new empty functions called `buyHealth`, `buyWeapon`, and `goTown`.
+
+43. Move your `goTown` function above your `goStore` function. Then copy and paste the contents of the `goStore` function into the `goTown` function.
