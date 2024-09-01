@@ -193,3 +193,6 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
     </div>
     ```
+
+20. Give your `#text` element the following text:
+    >Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
