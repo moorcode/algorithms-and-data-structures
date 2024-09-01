@@ -582,3 +582,5 @@ Use `const` to create a variable called `locations` and assign it an empty array
         }
     ];
     ```
+
+60. Now you can consolidate some of your code. Start by copying the code from inside the `goTown` function and paste it into your `update` function. Then, remove all the code from inside the `goTown` and `goStore` functions.
