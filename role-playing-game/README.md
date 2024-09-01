@@ -305,7 +305,15 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
 31. Create an empty function named `goStore`.
 
     ```javascript
-    function goStore {
+    function goStore() {
 
+    }
+    ```
+
+32. For now, make your `goStore` function output the message `"Going to store."` to the console.
+
+    ```javascript
+    function goStore() {
+        console.log('Going to store.')
     }
     ```
