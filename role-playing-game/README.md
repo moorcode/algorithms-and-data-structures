@@ -248,3 +248,15 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         background-color: #c70d0d;
     }
     ```
+
+26. For now, hide your `#monsterStats` element with the `display` property. Do not change any of the other styling.
+
+    ```css
+    #monsterStats {
+        display: none;
+        border: 1px solid #0a0a23;
+        padding: 5px;
+        color: #ffffff;
+        background-color: #c70d0d;
+    }
+    ```
