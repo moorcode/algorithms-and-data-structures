@@ -325,3 +325,11 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         console.log('Going to cave.');
     }
     ```
+
+34. Now create a `fightDragon` function that prints `'Fighting dragon.'` to the console.
+
+    ```javascript
+    function fightDragon() {
+        console.log('Fighting dragon.');
+    }
+    ```
