@@ -310,10 +310,18 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
     }
     ```
 
-32. For now, make your `goStore` function output the message `"Going to store."` to the console.
+32. For now, make your `goStore` function output the message `'Going to store.'` to the console.
 
     ```javascript
     function goStore() {
-        console.log('Going to store.')
+        console.log('Going to store.');
+    }
+    ```
+
+33. Now create a `goCave` function that prints `'Going to cave.'` to the console.
+
+    ```javascript
+    function goCave() {
+        console.log('Going to cave.');
     }
     ```
