@@ -122,3 +122,13 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         <div id="text"></div>
     </div>   
     ```
+
+12. Create three `span` elements within your `#stats` element. Give each of them the class `stat`. Then give the first one the text `XP: 0`, the second one the text `Health: 100`, and the third one the text `Gold: 50`.
+
+    ```html
+    <div id="stats">
+        <span class="stat">XP: 0</span>
+        <span class="stat">Health: 100</span>
+        <span class="stat">Gold: 50</span>
+    </div> 
+    ```
