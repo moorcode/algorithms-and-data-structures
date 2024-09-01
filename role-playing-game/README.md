@@ -4,7 +4,7 @@
 
 In this practice project, you'll learn fundamental programming concepts in JavaScript by coding your own Role Playing Game. You'll learn how to work with __arrays__, __strings__, __objects__, __functions__, __loops__, __if/else statements__, and more.
 
-1. To get started, create your standard HTML boilerplate with a `DOCTYPE`, `html`, `head`, and `body`, then add a `meta` tag for the `charset`. Add a `title` element and use the text `RPG - Dragon Repeller` for it. Include a `link` tag for your stylesheet to link the `styles.css` file.
+1. To get started, create your standard HTML __boilerplate__ with a `DOCTYPE`, `html`, `head`, and `body`, then add a `meta` tag for the `charset`. Add a `title` element and use the text `RPG - Dragon Repeller` for it. Include a `link` tag for your stylesheet to link the `styles.css` file.
 
     Finally, create a `div` element with `id` set to `game` within your `body`.
 
@@ -151,4 +151,20 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         <button id="button2">Go to cave</button>
         <button id="button3">Fight dragon</button>
     </div> 
+    ```
+
+15. JavaScript interacts with the HTML using the __Document Object Model__, or __DOM__. The DOM is a tree of objects that represents the HTML. You can access the HTML using the `document` object, which represents your entire HTML document.
+
+    One method for finding specific elements in your HTML is using the `querySelector()` method. The `querySelector()` method takes a CSS selector as an argument and returns the first element that matches that selector. For example, to find the `<h1>` element in your HTML, you would write:
+    
+    ```javascript
+    let h1 = document.querySelector("h1");
+    ```
+
+    Note that `h1` is a string and matches the CSS selector you would use.
+
+    Create a `button1` variable and use `querySelector()` to assign it your element with the `id` of `button1`. Remember that CSS `id` selectors are prefixed with a `#`.
+
+    ```javascript
+    let button1 = document.querySelector('#button1');
     ```
