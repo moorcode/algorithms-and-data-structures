@@ -536,3 +536,6 @@ Use `const` to create a variable called `locations` and assign it an empty array
         }
     ];
     ```
+
+56. Give your empty `button text` array three string elements. Use the three strings being assigned to the button `innerText` properties in the `goTown` function. Remember that array values are separated by commas.
+
