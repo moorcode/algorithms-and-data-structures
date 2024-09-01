@@ -301,3 +301,11 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
     ```javascript
     const monsterHealthText = document.querySelector('#monsterHealth');
     ```
+
+31. Create an empty function named `goStore`.
+
+    ```javascript
+    function goStore {
+
+    }
+    ```
