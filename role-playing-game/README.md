@@ -423,3 +423,5 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         text.innerText = 'You enter the store.';
     }
     ```
+
+42. Create three new empty functions called `buyHealth`, `buyWeapon`, and `goTown`.
