@@ -497,3 +497,11 @@ Use `const` to create a variable called `locations` and assign it an empty array
         "Number of legs": 4
     };
     ```
+
+51. There are two ways to access the properties of an object: dot notation (`.`) and bracket notation (`[]`), similar to an array. Dot notation is what you use when you know the name of the property you're trying to access ahead of time. Update your console statement to access the `name` property of the `cat` object using dot notation.
+
+    ```javascript
+    console.log(cat.name);
+
+    >{name: 'Whiskers', Number of legs: 4}
+    ```

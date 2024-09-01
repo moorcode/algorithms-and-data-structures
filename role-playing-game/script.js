@@ -22,7 +22,7 @@ const cat = {
     "Number of legs": 4
 };
 
-console.log(cat);
+console.log(cat.name);
 
 // initialize buttons
 button1.onclick = goStore;
