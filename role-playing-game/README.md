@@ -441,3 +441,18 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         text.innerText = 'You are in the town square. You see a sign that says Store.';
     }
     ```
+
+45. You need to wrap the text `Store` in double quotes. If your string is already wrapped in double quotes, you'll need to escape the quotes around Store. You can escape them with a backslash `\`. Here is an example:
+    
+    ```javascript
+    const escapedString = "Naomi likes to play \"Zelda\" sometimes.";
+    ```
+    Wrap the text `Store` in double quotes within your `text.innerText` line.
+
+    ```javascript
+    text.innerText = 'You are in the town square. You see a sign that says "Store".';
+    ```
+
+46. You have repetition in the `goTown` and `goStore` functions. Repetition in your code is a sign that you need another function. In the previous project, you learned how to work with function parameters. Function parameters act as placeholders for values that you pass to the function when you call it.
+
+Create an empty `update` function that takes a parameter called `location`. Place it before your `goTown` function.
