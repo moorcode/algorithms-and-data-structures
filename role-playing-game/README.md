@@ -505,3 +505,11 @@ Use `const` to create a variable called `locations` and assign it an empty array
 
     >{name: 'Whiskers', Number of legs: 4}
     ```
+
+52. The second way to access the properties of an object is bracket notation (`[]`). If the property of the object you are trying to access has a space in its name, you will need to use bracket notation. Update your console statement to use bracket notation to access the property `"Number of legs"` of the `cat` object.
+
+    ```javascript
+    console.log(cat["Number of legs"]);
+
+    >4
+    ```
