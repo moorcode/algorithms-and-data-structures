@@ -478,3 +478,13 @@ Use `const` to create a variable called `locations` and assign it an empty array
     
     >{}
     ```
+
+49. Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through __properties__. Properties consist of a key and a value. The key is the name of the property, and the value is the data stored in the property. 
+
+    Inside your `cat` object, add a new property. The key should be `name` and the value should be the string `"Whiskers"`. Open up the console to see the updates to your object.
+
+    ```javascript
+    const cat = {
+        name: "Whiskers"
+    };
+    ```
