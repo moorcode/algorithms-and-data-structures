@@ -456,3 +456,7 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
 46. You have repetition in the `goTown` and `goStore` functions. Repetition in your code is a sign that you need another function. In the previous project, you learned how to work with function parameters. Function parameters act as placeholders for values that you pass to the function when you call it.
 
 Create an empty `update` function that takes a parameter called `location`. Place it before your `goTown` function.
+
+47. In your role playing game, you will be able to visit different locations like the store, the cave, and the __town square__. You will need to create a data structure that will hold the different locations.
+
+Use `const` to create a variable called `locations` and assign it an empty array.
