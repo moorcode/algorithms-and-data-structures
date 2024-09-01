@@ -204,3 +204,13 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
         background-color: #0a0a23;
     }
     ```
+
+22. Give the #`text` element a `background-color` of `#0a0a23`, a `color` of `#ffffff`, and `10px` of `padding` on all sides.
+
+    ```css
+    #text {
+        background-color: #0a0a23;
+        color: #ffffff;
+        padding: 10px;
+    }
+    ```
