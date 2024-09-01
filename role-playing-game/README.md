@@ -169,7 +169,7 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
     let button1 = document.querySelector('#button1');
     ```
 
-    16. We have run into a slight problem. You are trying to query your page for a `button` element, but your `script` tag is in the `head` of your HTML. This means your code runs before the browser has finished reading the HTML, and your `document.querySelector()` will not see the button - because the browser hasn't processed it yet.
+16. We have run into a slight problem. You are trying to query your page for a `button` element, but your `script` tag is in the `head` of your HTML. This means your code runs before the browser has finished reading the HTML, and your `document.querySelector()` will not see the button - because the browser hasn't processed it yet.
 
     To fix this, move your `script` element out of the `head` element, and place it at the end of your `body` element (just before the closing `</body>` tag.)
 
