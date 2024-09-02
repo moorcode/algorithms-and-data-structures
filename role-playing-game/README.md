@@ -773,3 +773,17 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
     ```
 
 87. You should tell the player what weapon they bought. In between the two lines you just wrote, use `let` to initialize a new variable called `newWeapon`. Set this to equal `weapons`.
+
+88. Use bracket notation to access an object within the `weapons` array and assign it to your `newWeapon` variable. Place the variable `currentWeaponIndex` within the brackets. When you use a variable in bracket notation, you are accessing the property or index by the value of that variable.
+
+    ```javascript
+    function buyWeapon() {
+        if (gold >= 30) {
+            gold -= 30;
+            currentWeaponIndex++;
+            goldText.innerText = gold;
+            let newWeapon = weapons[currentWeaponIndex];
+            text.innerText = 'You now have a new weapon.';
+        }
+    }
+    ```
