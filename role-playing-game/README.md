@@ -803,3 +803,18 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
         }
     }
     ```
+
+    91. Back at the beginning of this project, you created the `inventory` array. Add the `newWeapon` to the end of the `inventory` array using the `push()` method.
+
+    ```javascript
+    function buyWeapon() {
+        if (gold >= 30) {
+            gold -= 30;
+            currentWeaponIndex++;
+            goldText.innerText = gold;
+            let newWeapon = weapons[currentWeaponIndex];
+            text.innerText = 'You now have a ' + newWeapon + '.'
+            inventory.push(newWeapon);
+        }
+    }
+    ```
