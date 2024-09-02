@@ -1008,3 +1008,5 @@ Below your `weapons` array, define a `monsters` variable and assign it an array.
 
     }
     ```
+
+    114. At the end of your code, create two empty functions named `attack` and `dodge`.
