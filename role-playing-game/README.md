@@ -866,3 +866,7 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
 97. Now it is time to test your `buyWeapon` function. Right now, the `gold` amount is set to `50`. But to properly see the results of your `buyWeapon` function, the amount should be set to something higher. Update the `gold` amount to `250`. To test your `buyWeapon` function, open up the console. Then click on the `"Go to store"` button followed by the `"Buy weapon (30 gold)"` button four times.
 
     NOTE: The HTML must be updated to reflect this change in your script.js file.
+
+98. When you were testing your function, you should have seen an error message in the console. This error is due to the condition in the `buyWeapon` function. The `currentWeaponIndex` variable is the index of the `weapons` array, but array indexing starts at zero. The index of the last element in an array is one less than the length of the array.
+
+    Change the `if` condition to check `weapons.length - 1`, instead of `weapons.length`. Test out your buyWeapon function again to see the error message disappear.
