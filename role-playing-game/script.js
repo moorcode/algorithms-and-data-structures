@@ -73,7 +73,14 @@ const locations = [
         "button text": ['Fight slime', 'Fight fanged beast', 'Go to town square'],
         "button functions": [button1.onclick = fightSlime, button2.onclick = fightBeast, button3.onclick = goTown],
         text: "You enter the cave. You see some monsters."
+    },
+    {
+        name: "fight",
+        "button text": ['Attack', 'Dodge', 'Run'],
+        "button functions": [button1.onclick = attack, button2.onclick = dodge, button3.onclick = goTown],
+        text: "You are fighting a monster."
     }
+
 ];
 
 
