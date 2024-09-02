@@ -750,3 +750,5 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
         }
     ];
     ```
+
+82. Inside your `buyWeapon` function, add an `if` statement to check if `gold` is greater than or equal to `30`.
