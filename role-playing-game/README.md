@@ -721,3 +721,5 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
 78. Now when a player tries to buy health, it will only work if they have enough money. If they do not, nothing will happen. Add an `else` statement where you can put code to run if a player does not have enough money.
 
 79. Inside the `else` statement, set `text.innerText` to equal `'You do not have enough gold to buy health.'`.
+
+80. Use `const` to create a `weapons` variable above your `locations` array. Assign it an empty array.
