@@ -759,4 +759,15 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
 
 85. Change your `currentWeaponIndex` assignment to use the increment operator.
 
+86. Now update the `goldText` element to display the new value of `gold`, and update the text element to display `'You now have a new weapon.'`.
 
+    ```javascript
+    function buyWeapon() {
+        if (gold >= 30) {
+            gold -= 30;
+            currentWeaponIndex++;
+            goldText.innerText = gold;
+            text.innerText = 'You now have a new weapon.';
+        }
+    }
+    ```
