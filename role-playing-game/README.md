@@ -1014,3 +1014,13 @@ Below your `weapons` array, define a `monsters` variable and assign it an array.
 115. Add a new object to the end of the `locations` array, following the same properties as the rest of the objects. Set `name` to `"fight"`, `"button text"` to an array with `"Attack"`, `"Dodge"`, and `"Run"`, `"button functions"` to an array with `attack`, `dodge`, and `goTown`, and `text` to `"You are fighting a monster."`.
 
 116. In the `goFight` function, call your `update` function with the fourth object in `locations` as an argument.
+
+117. Below your `update` call, set the `monsterHealth` to be the health of the current monster. You can get this value by accessing the health property of `monsters[fighting]` with dot notation.
+
+    ```javascript
+    function goFight() {
+        update(locations[3]);
+        monsterHealth = monsters[fighting].health;
+    }
+    ```
+
