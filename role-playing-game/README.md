@@ -924,3 +924,4 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
 
 104. Inside the `if` statement, set `gold` equal to `15` more than its current value. Also update `goldText.innerText` to the new value.
 
+105. The next step is to create a variable called `currentWeapon`. Use the `let` keyword to create a variable named `currentWeapon`. Don't assign it a value yet.
