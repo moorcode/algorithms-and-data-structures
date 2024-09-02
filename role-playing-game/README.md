@@ -789,3 +789,17 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
     ```
 
 89. `weapons[currentWeaponIndex]` is an object. Use dot notation to get the name property of that object.
+
+90. Update the string `'You now have a new weapon.'` to `'You now have a '` followed by the name of the new weapon, and remember to end the sentence with a period.
+
+    ```javascript
+    function buyWeapon() {
+        if (gold >= 30) {
+            gold -= 30;
+            currentWeaponIndex++;
+            goldText.innerText = gold;
+            let newWeapon = weapons[currentWeaponIndex];
+            text.innerText = 'You now have a ' + newWeapon + '.'
+        }
+    }
+    ```
