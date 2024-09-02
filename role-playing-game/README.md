@@ -892,3 +892,5 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
         }
     }
     ```
+
+100. Now that you are finished testing that portion of the `buyWeapon` function, you can set your `gold` variable back to `50`. Make this change in your HTML also.
