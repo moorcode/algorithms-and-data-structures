@@ -804,7 +804,7 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
     }
     ```
 
-    91. Back at the beginning of this project, you created the `inventory` array. Add the `newWeapon` to the end of the `inventory` array using the `push()` method.
+91. Back at the beginning of this project, you created the `inventory` array. Add the `newWeapon` to the end of the `inventory` array using the `push()` method.
 
     ```javascript
     function buyWeapon() {
@@ -840,3 +840,5 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
         }
     }
     ```
+
+95. Once a player has the best weapon, they cannot buy another one. Wrap all of the code in your `buyWeapon` function inside another `if` statement. The condition should check if `currentWeaponIndex` is less than `3` - the index of the last weapon.
