@@ -862,3 +862,7 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
         }
     }
     ```
+
+97. Now it is time to test your `buyWeapon` function. Right now, the `gold` amount is set to `50`. But to properly see the results of your `buyWeapon` function, the amount should be set to something higher. Update the `gold` amount to `250`. To test your `buyWeapon` function, open up the console. Then click on the `"Go to store"` button followed by the `"Buy weapon (30 gold)"` button four times.
+
+    NOTE: The HTML must be updated to reflect this change in your script.js file.
