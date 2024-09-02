@@ -938,3 +938,5 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
         }
     }
     ```
+
+107. After your `currentWeapon`, use the concatenation operator to set `text.innerText` to the string `'You sold a '`, then currentWeapon, then the string `'.'`.
