@@ -787,3 +787,5 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
         }
     }
     ```
+
+89. `weapons[currentWeaponIndex]` is an object. Use dot notation to get the name property of that object.
