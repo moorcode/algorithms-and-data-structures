@@ -715,3 +715,6 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
         healthText.innerText = health;
     }
     ```
+
+77. What if the player doesn't have enough gold to buy health? You should use an `if` statement to check if the player has enough gold to buy health. Start by placing all of the code in your `buyHealth` function inside an `if` statement. For the `if` statement condition, check if `gold` is greater than or equal to `10`.
+
