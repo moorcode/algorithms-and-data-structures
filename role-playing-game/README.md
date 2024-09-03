@@ -1320,3 +1320,5 @@ The logical OR operator will use the first value if it is truthy – that is, an
 164. Inside your `while` loop, push a random number between `0` and `10` to the end of the `numbers` array. You can create this random number with `Math.floor(Math.random() * 11)`.
 
 165. After the `while` loop, set `text.innerText` to equal `'You picked <someGuess>. Here are the random numbers:'`. Replace <someGuess> with the guess function parameter.
+
+166. At the end of the string, before the final quote, insert the new line escape character `\n`. This will cause the next part you add to `text.innerText` to appear on a new line.
