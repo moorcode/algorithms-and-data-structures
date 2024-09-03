@@ -85,6 +85,12 @@ const locations = [
         "button text": ['Go to town square', 'Go to town square', 'Go to town square'],
         "button functions": [button1.onclick = goTown, button2.onclick = goTown, button3.onclick = goTown],
         text: 'The monster screams "Arg!" as it dies. You gain experience points and find gold.'
+    },
+    {
+        name: "lose",
+        "button text": ['REPLAY?', 'REPLAY?', 'REPLAY?'],
+        "button functions": [button1.onclick = restart, button2.onclick = restart, button3.onclick = restart],
+        text: "You die. &#x2620;"
     }
 
 ];
@@ -195,7 +201,7 @@ function attack() {
     if (health <=0) {
         lose();
     } else if (monsterHealth <=0) {
-        defeatMonster()
+        
     }
 }
 
