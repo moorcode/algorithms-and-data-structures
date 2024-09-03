@@ -1108,3 +1108,5 @@ Following this pattern, use the addition operator (`+`) to add a random number b
     ```
 
 128. At the end of your code, create the `defeatMonster` and `lose` functions. Leave them empty for now.
+
+129. Inside the `dodge` function, set `text.innerText` equal to the string `'You dodge the attack from the <monster>'`. Replace `<monster>` with the name of the monster, using the `name` property.
