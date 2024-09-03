@@ -1142,3 +1142,5 @@ Following this pattern, use the addition operator (`+`) to add a random number b
 135. The word `"Arg!"` should have quotes around it. Besides escaping quotes, there is another way you can include quotation marks inside a string.
 
     Change the double quotes around the string `"The monster screams Arg! as it dies. You gain experience points and find gold."` to single quotes `'`, then add double quotes around `"Arg!"`.
+
+136. After a monster is defeated, the monster's stat box should no longer display. On the first line of the `update` function, use `monsterStats.style.display` to change the display value to none.
