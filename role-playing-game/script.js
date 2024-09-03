@@ -278,6 +278,7 @@ function pick(guess) {
     while (numbers.length < 10) {
         numbers.shift(Math.floor(Math.random() * 11));
     }
+    text.innerText = 'You picked ' + guess + '. Here are the random numbers:'
 }
 
 function pickTwo() {
