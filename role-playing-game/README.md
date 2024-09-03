@@ -1122,3 +1122,15 @@ Following this pattern, use the addition operator (`+`) to add a random number b
 131. Set `xp` to `xp` plus the monster's level.
 
 132. Now update `goldText` and `xpText` to display the updated values.
+
+133. Finish the `defeatMonster` function by calling the `update` function with `locations[4]` as the argument.
+
+    ```javascript
+    function defeatMonster() {
+        gold += Math.floor(monsters[fighting].level * 6.7);
+        xp += monsters[fighting].level;
+        goldText.innerText = gold;
+        xpText.innerText = xp;
+        update(locations[4]);
+    }
+    ```
