@@ -1144,3 +1144,5 @@ Following this pattern, use the addition operator (`+`) to add a random number b
     Change the double quotes around the string `"The monster screams Arg! as it dies. You gain experience points and find gold."` to single quotes `'`, then add double quotes around `"Arg!"`.
 
 136. After a monster is defeated, the monster's stat box should no longer display. On the first line of the `update` function, use `monsterStats.style.display` to change the display value to none.
+
+137. In the `lose` function, call the `update` function and pass in the sixth object of your `locations` array. Note that you haven't created this object just yet.
