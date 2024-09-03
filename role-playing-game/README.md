@@ -1110,3 +1110,12 @@ Following this pattern, use the addition operator (`+`) to add a random number b
 128. At the end of your code, create the `defeatMonster` and `lose` functions. Leave them empty for now.
 
 129. Inside the `dodge` function, set `text.innerText` equal to the string `'You dodge the attack from the <monster>'`. Replace `<monster>` with the name of the monster, using the `name` property.
+
+130. In your `defeatMonster` function, set `gold` equal to `gold` plus the monster's level times `6.7`. Remember you can get the monster's level by using `monsters[fighting].level`. Here is an example of setting `num` to `num` plus `5` * `8`: `num += 5 * 8`. Use `Math.floor()` to round the result down.
+
+    ```javascript
+    function defeatMonster() {
+        gold += Math.floor(monsters[fighting].level * 6.7);
+    }
+    ```
+
