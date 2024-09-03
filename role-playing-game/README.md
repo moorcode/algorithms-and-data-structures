@@ -1228,3 +1228,5 @@ This will set the monster's attack to five times their level minus a random numb
         return hit > 0 ? hit : 0;
     }
     ```
+
+150. In your attack function, find the line of code that updates the `monsterHealth` variable and place it within an `if` block with a condition that calls the `isMonsterHit` function.
