@@ -1270,3 +1270,5 @@ The logical OR operator will use the first value if it is truthy – that is, an
     ```
 
 154. On every attack, there should be a chance that the player's weapon breaks. At the end of the `attack` function, add an empty `if` statement with the condition `Math.random() <= .1`.
+
+155. Use the `+=` operator to add `' Your <weapon> breaks.'`, with a space in front of `Your`, to the end of `text.innerText`. Replace `<weapon>` with the last item in the inventory array using `inventory.pop()`, which will remove the last item in the array AND return it so it appears in your string.
