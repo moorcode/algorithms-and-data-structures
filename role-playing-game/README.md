@@ -1185,3 +1185,5 @@ Following this pattern, use the addition operator (`+`) to add a random number b
     In the `update` function, change `text.innerText` to `text.innerHTML`.
 
 142. After the `lose` function, create a function called `winGame`. Inside the `winGame` function, call the `update` function and pass in `locations[6]`.
+
+143. Add another object in the `locations` array. Everything should be the same as the `lose` object, except the name should be `"win"` and the `text` should be `"You defeat the dragon! YOU WIN THE GAME! &#x1F389;"`.

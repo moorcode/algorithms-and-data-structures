@@ -91,8 +91,13 @@ const locations = [
         "button text": ['REPLAY?', 'REPLAY?', 'REPLAY?'],
         "button functions": [button1.onclick = restart, button2.onclick = restart, button3.onclick = restart],
         text: "You die. &#x2620;"
+    },
+    {
+        name: "win",
+        "button text": ['REPLAY?', 'REPLAY?', 'REPLAY?'],
+        "button functions": [button1.onclick = restart, button2.onclick = restart, button3.onclick = restart],
+        text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;"
     }
-
 ];
 
 
