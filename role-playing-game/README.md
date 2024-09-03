@@ -1170,4 +1170,16 @@ Following this pattern, use the addition operator (`+`) to add a random number b
         }
     }
     ```
-    
+
+141. In order for the `&#x2620;` emoticon text to properly display on the page, you will need to use the __innerHTML__ property. The `innerHTML` property allows you to access or modify the content inside an HTML element using JavaScript.
+
+    Here is an example of updating the content for this paragraph element using the `innerHTML` property.
+
+    ```html
+    <p id="demo">This is a paragraph.</p>
+    ```
+    ```javascript
+    document.querySelector("#demo").innerHTML = 'Hello, innerHTML!';
+    ```
+
+    In the `update` function, change `text.innerText` to `text.innerHTML`.
