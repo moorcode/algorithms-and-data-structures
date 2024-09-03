@@ -1120,3 +1120,5 @@ Following this pattern, use the addition operator (`+`) to add a random number b
     ```
 
 131. Set `xp` to `xp` plus the monster's level.
+
+132. Now update `goldText` and `xpText` to display the updated values.
