@@ -1193,3 +1193,7 @@ Following this pattern, use the addition operator (`+`) to add a random number b
     Inside your `attack` function, change your `health -= monsters[fighting].level;` line to `health -= getMonsterAttackValue(monsters[fighting].level);`. This sets `health` equal to `health` minus the return value of the `getMonsterAttackValue` function, and passes the `level` of the monster as an argument.
 
 145. Below your `attack` function, create an empty function named `getMonsterAttackValue`. It should take `level` as a parameter.
+
+146. The attack of the monster will be based on the monster's `level` and the player's `xp`. In the `getMonsterAttackValue` function, use `const` to create a variable called `hit`. Assign it the equation `(level * 5) - (Math.floor(Math.random() * xp));`.
+
+This will set the monster's attack to five times their level minus a random number between `0` and the player's `xp`.
