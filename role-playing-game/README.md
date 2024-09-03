@@ -1272,3 +1272,35 @@ The logical OR operator will use the first value if it is truthy – that is, an
 154. On every attack, there should be a chance that the player's weapon breaks. At the end of the `attack` function, add an empty `if` statement with the condition `Math.random() <= .1`.
 
 155. Use the `+=` operator to add `' Your <weapon> breaks.'`, with a space in front of `Your`, to the end of `text.innerText`. Replace `<weapon>` with the last item in the inventory array using `inventory.pop()`, which will remove the last item in the array AND return it so it appears in your string.
+
+156. Decrement the value of `currentWeaponIndex` in your `if` statement, after you update the text.
+
+157. We don't want a player's only weapon to break. The logical AND operator checks if two statements are true. Use the logical AND operator `&&` to add a second condition to your `if` statement. The player's weapon should only break if `inventory.length` does not equal (`!==`) one.
+
+    ```javascript
+    function attack() {
+        text.innerText = 'The ' + monsters[fighting].name + ' attacks.';
+        text.innerText += ' You attack it with your ' + weapons[currentWeaponIndex].name + '.';
+        health -= getMonsterAttackValue(monsters[fighting].level);
+        if (isMonsterHit()) {
+            monsterHealth -= weapons[currentWeaponIndex].power + Math.floor(Math.random() * xp) + 1;
+        } else {
+            text.innerText += ' You miss.';
+        }
+        healthText.innerText = health;
+        monsterHealthText.innerText = monsterHealth;
+        if (health <=0) {
+            lose();
+        } else if (monsterHealth <=0) {
+            if (fighting === 2) {
+                winGame();
+            } else {
+                defeatMonster();
+            }
+        }
+        if (Math.random() <= .1 && inventory.length !== 1) {
+            text.innerText += ' Your ' + inventory.pop() + ' breaks.';
+            currentWeaponIndex--;
+        }
+    }
+    ```
