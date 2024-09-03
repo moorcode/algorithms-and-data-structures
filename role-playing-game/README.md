@@ -1091,7 +1091,7 @@ Following this pattern, use the addition operator (`+`) to add a random number b
 
 127. At the end of your `if` statement, add an `else if` statement to check if `monsterHealth` is less than or equal to `0`. In your `else if`, call the `defeatMonster` function.
 
-```javascript
+    ```javascript
     function attack() {
         text.innerText = 'The ' + monsters[fighting].name + ' attacks.';
         text.innerText += ' You attack it with your ' + weapons[currentWeaponIndex].name + '.';
@@ -1106,3 +1106,5 @@ Following this pattern, use the addition operator (`+`) to add a random number b
         }
     }
     ```
+
+128. At the end of your code, create the `defeatMonster` and `lose` functions. Leave them empty for now.
