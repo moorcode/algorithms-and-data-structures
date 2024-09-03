@@ -1308,3 +1308,5 @@ The logical OR operator will use the first value if it is truthy – that is, an
 158. Now you can add a small easter egg (hidden feature) to your game. Create a new function called `easterEgg` which calls the `update` function with `locations[7]` as the argument.
 
 159. Create an empty pick function with a parameter named guess.
+
+160. Create two new functions named `pickTwo` and `pickEight`. Inside each of those, call the `pick()` function and pass either `2` or `8` as the argument depending on the function name.
