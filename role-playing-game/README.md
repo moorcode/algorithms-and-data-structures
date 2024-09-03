@@ -1119,3 +1119,4 @@ Following this pattern, use the addition operator (`+`) to add a random number b
     }
     ```
 
+131. Set `xp` to `xp` plus the monster's level.
