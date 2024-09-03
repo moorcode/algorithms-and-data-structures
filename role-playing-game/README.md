@@ -1304,3 +1304,5 @@ The logical OR operator will use the first value if it is truthy – that is, an
         }
     }
     ```
+
+158. Now you can add a small easter egg (hidden feature) to your game. Create a new function called `easterEgg` which calls the `update` function with `locations[7]` as the argument.
