@@ -1343,3 +1343,31 @@ The logical OR operator will use the first value if it is truthy – that is, an
 170. Inside the `if` statement, add the string `'Right! You win 20 gold!'` to the end of `text.innerText`. Also, add `20` to the value of `gold` and update the `goldText.innerText`.
 
 171. Now add an `else` statement. Inside, add 'Wrong! You lose 10 health!' to the end of text.innerText. Subtract 10 from health and update healthText.innerText.
+
+172. Since you subtracted health from the player, you need to check if the player's `health` is less than or equal to `0`. If it is, call the `lose` function.
+
+    ```javascript
+    function pick(guess) {
+        const numbers = [];
+        while (numbers.length < 10) {
+            numbers.shift(Math.floor(Math.random() * 11));
+        }
+        text.innerText = 'You picked ' + guess + '. Here are the random numbers:\n'
+        for (let i = 0; i < 10; i++) {
+            text.innerText += numbers[i] + '\n'
+        }
+        if (numbers.includes(guess)) {
+            text.innerText += 'Right! You win 20 gold!';
+            gold += 20;
+            goldText.innerText = gold;
+        } else {
+            text.innerText += 'Wrong! You lose 10 health!';
+            health -= 10;
+            healthText.innerText = health;
+            if (health <= 0) {
+                lose();
+            }
+        }
+    }
+    ```
+
