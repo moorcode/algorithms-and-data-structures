@@ -1199,3 +1199,5 @@ Following this pattern, use the addition operator (`+`) to add a random number b
 This will set the monster's attack to five times their level minus a random number between `0` and the player's `xp`.
 
 147. Log the value of `hit` to the console to use in debugging.
+
+148. Use the `return` keyword to return the value of `hit` at the end of the function.
