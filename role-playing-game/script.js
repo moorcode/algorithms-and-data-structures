@@ -273,10 +273,18 @@ function easterEgg() {
     update(locations[7]);
 }
 
+function pickTwo() {
+    pick(2);
+}
+
+function pickEight() {
+    pick(8);
+}
+
 function pick(guess) {
     const numbers = [];
     while (numbers.length < 10) {
-        numbers.shift(Math.floor(Math.random() * 11));
+        numbers.push(Math.floor(Math.random() * 11));
     }
     text.innerText = 'You picked ' + guess + '. Here are the random numbers:\n'
     for (let i = 0; i < 10; i++) {
@@ -294,12 +302,4 @@ function pick(guess) {
             lose();
         }
     }
-}
-
-function pickTwo() {
-    pick(2);
-}
-
-function pickEight() {
-    pick(8);
 }
