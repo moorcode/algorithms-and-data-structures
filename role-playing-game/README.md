@@ -1084,4 +1084,5 @@ Following this pattern, use the addition operator (`+`) to add a random number b
         monsterHealth -= weapons[currentWeaponIndex].power + Math.floor(Math.random() * xp) + 1;;
     }
     ```
-    
+
+125. Update `healthText.innerText` and `monsterHealthText.innerText` to equal `health` and `monsterHealth`.
