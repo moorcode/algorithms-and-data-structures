@@ -1322,3 +1322,5 @@ The logical OR operator will use the first value if it is truthy – that is, an
 165. After the `while` loop, set `text.innerText` to equal `'You picked <someGuess>. Here are the random numbers:'`. Replace <someGuess> with the guess function parameter.
 
 166. At the end of the string, before the final quote, insert the new line escape character `\n`. This will cause the next part you add to `text.innerText` to appear on a new line.
+
+167. In this step, create a `for` loop where `i` is initialized to `0`, the loop runs as long as `i` is less than `10`, and `i` is incremented by `1` after each iteration using the increment operator `++`.
