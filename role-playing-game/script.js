@@ -266,3 +266,7 @@ function restart() {
 function easterEgg() {
     update(locations[7]);
 }
+
+function pick(guess) {
+    
+}
