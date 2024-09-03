@@ -1086,3 +1086,5 @@ Following this pattern, use the addition operator (`+`) to add a random number b
     ```
 
 125. Update `healthText.innerText` and `monsterHealthText.innerText` to equal `health` and `monsterHealth`.
+
+126. Add an `if` statement to check if `health` is less than or equal to `0`. If it is, call the `lose` function.
