@@ -1256,3 +1256,5 @@ This will set the monster's attack to five times their level minus a random numb
         }
     }
     ```
+
+152. Now create the `isMonsterHit` function after your `getMonsterAttackValue` function. This will return a boolean value (true or false) to be used in your `if` statement. Return the result of the comparison `Math.random() > .2`.
