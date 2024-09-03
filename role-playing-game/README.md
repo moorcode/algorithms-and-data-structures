@@ -1268,3 +1268,5 @@ The logical OR operator will use the first value if it is truthy – that is, an
         return Math.random() > .2 || health < 20;
     }
     ```
+
+154. On every attack, there should be a chance that the player's weapon breaks. At the end of the `attack` function, add an empty `if` statement with the condition `Math.random() <= .1`.
