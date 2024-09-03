@@ -1183,3 +1183,5 @@ Following this pattern, use the addition operator (`+`) to add a random number b
     ```
 
     In the `update` function, change `text.innerText` to `text.innerHTML`.
+
+142. After the `lose` function, create a function called `winGame`. Inside the `winGame` function, call the `update` function and pass in `locations[6]`.
