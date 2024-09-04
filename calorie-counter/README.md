@@ -28,6 +28,6 @@ In this practice project, you'll learn basic __regular expressions__, __template
 
 9. In your `span` element, create a `label` element for an `entry-dropdown` and give it the text `Add food or exercise:`. Then create a `select` element with the `id` set to `entry-dropdown` and a `name` set to `options`. Below that, add a `button` element with the `id` set to `add-entry` and the text `Add Entry`. Give your `button` element a `type` attribute set to `button` to prevent automatic form submission.
 
-10. Your select menu needs options for each of the food and exercise `fieldset` elements you created in the previous steps. Use the `option` element to create a new option for each `fieldset`. The `value` attribute of each option should be the `id` of the `fieldset`, and the text of each option should be the text of the `legend`.
+10. Your select menu needs options for each of the food and exercise `fieldset` elements you created in the previous steps. Use the `option` element to create a new option for each `fieldset`. The `value` attribute of each option should be the `id` of the `fieldset`, and the text of each option should be the text of the `legend`. Set the `Breakfast` option as the `selected` option.
 
-Set the `Breakfast` option as the `selected` option.
+11. Create another `div` element. Within it, nest a `button` to `submit` the form. This button should have the text `Calculate Remaining Calories`. Then add a `button` with the `id` set to `clear` to clear the form (don't forget to give it a `type` attribute that prevents it from submitting the form). This button needs the text `Clear`.
