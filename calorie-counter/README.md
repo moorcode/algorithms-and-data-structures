@@ -23,3 +23,5 @@ In this practice project, you'll learn basic __regular expressions__, __template
 6. Continuing the pattern, create a `fieldset` for `dinner` with the same nested elements.
 
 7. You need two more of these `fieldset` code blocks – one for `snacks` and one for `exercise`.
+
+8. When users want to select a meal type to input their calorie counts, they should be presented with a dropdown menu and a button to add the meal type. Start by creating a `div` element and assign it a `class` attribute with the value `controls`. Then, nest a `span` element inside this `div`.
