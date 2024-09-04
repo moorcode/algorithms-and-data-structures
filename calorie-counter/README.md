@@ -26,6 +26,8 @@ In this practice project, you'll learn basic __regular expressions__, __template
 
 8. When users want to select a meal type to input their calorie counts, they should be presented with a dropdown menu and a button to add the meal type. Start by creating a `div` element and assign it a `class` attribute with the value `controls`. Then, nest a `span` element inside this `div`.
 
-9. In your `span` element, create a `label` element for an `entry-dropdown` and give it the text `Add food or exercise:`. Then create a `select` element with the `id` set to `entry-dropdown` and a `name` set to `options`. Below that, add a `button` element with the `id` set to `add-entry` and the text `Add Entry`.
+9. In your `span` element, create a `label` element for an `entry-dropdown` and give it the text `Add food or exercise:`. Then create a `select` element with the `id` set to `entry-dropdown` and a `name` set to `options`. Below that, add a `button` element with the `id` set to `add-entry` and the text `Add Entry`. Give your `button` element a `type` attribute set to `button` to prevent automatic form submission.
 
-Give your `button` element a `type` attribute set to `button` to prevent automatic form submission.
+10. Your select menu needs options for each of the food and exercise `fieldset` elements you created in the previous steps. Use the `option` element to create a new option for each `fieldset`. The `value` attribute of each option should be the `id` of the `fieldset`, and the text of each option should be the text of the `legend`.
+
+Set the `Breakfast` option as the `selected` option.
