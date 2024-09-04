@@ -17,3 +17,7 @@ In this practice project, you'll learn basic __regular expressions__, __template
 3. Your `input` element needs some additional attributes. Give it a `type` set to `number` to only allow numeric inputs, a `min` attribute set to `0` to only allow positive numbers, and a `placeholder` set to `Daily calorie budget`. Finally, mark the `input` element as `required`.
 
 4. In your form, users should have the capability to add various meal types along with their calorie counts. Create a `fieldset` element with the `id` set to `breakfast`. Within that element, create a `legend` with the text `Breakfast`, and an empty `div` with the `class` set to `input-container`.
+
+5. Next, create a `fieldset` element with the `id` set to `lunch`. Within that element, create a `legend` element with the text `Lunch`, and an empty `div` with the `class` set to `input-container`.
+
+6. 
