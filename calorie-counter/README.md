@@ -33,3 +33,5 @@ In this practice project, you'll learn basic __regular expressions__, __template
 11. Create another `div` element. Within it, nest a `button` to `submit` the form. This button should have the text `Calculate Remaining Calories`. Then add a `button` with the `id` set to `clear` to clear the form (don't forget to give it a `type` attribute that prevents it from submitting the form). This button needs the text `Clear`.
 
 12. Your form needs somewhere to display the results. Add an empty `div` element and give it an `id` of `output` and the `class` values of `output` and `hide`.
+
+13. Finally, you need to link your JavaScript file to your HTML. Create a `script` element to do so.
