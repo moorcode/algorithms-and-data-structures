@@ -21,3 +21,5 @@ In this practice project, you'll learn basic __regular expressions__, __template
 5. Next, create a `fieldset` element with the `id` set to `lunch`. Within that element, create a `legend` element with the text `Lunch`, and an empty `div` with the `class` set to `input-container`.
 
 6. Continuing the pattern, create a `fieldset` for `dinner` with the same nested elements.
+
+7. You need two more of these `fieldset` code blocks – one for `snacks` and one for `exercise`.
