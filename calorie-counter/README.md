@@ -37,3 +37,5 @@ In this practice project, you'll learn basic __regular expressions__, __template
 13. Finally, you need to link your JavaScript file to your HTML. Create a `script` element to do so.
 
 14. It is time to start writing the script that makes your form work. To access an HTML element with a given `id` name, you can use the `getElementById()` method. Begin by getting the `form` element (using the `id`) and storing it in a variable called `calorieCounter`.
+
+15. Get your `#budget` element and assign it to `budgetNumberInput`, and your `#entry-dropdown` element and assign it to `entryDropdown`.
