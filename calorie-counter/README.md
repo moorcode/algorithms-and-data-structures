@@ -39,3 +39,5 @@ In this practice project, you'll learn basic __regular expressions__, __template
 14. It is time to start writing the script that makes your form work. To access an HTML element with a given `id` name, you can use the `getElementById()` method. Begin by getting the `form` element (using the `id`) and storing it in a variable called `calorieCounter`.
 
 15. Get your `#budget` element and assign it to `budgetNumberInput`, and your `#entry-dropdown` element and assign it to `entryDropdown`.
+
+16. Following the same pattern, assign your `#add-entry` element to `addEntryButton`, your `#clear` element to `clearButton`, and your `#output` element to `output`.
