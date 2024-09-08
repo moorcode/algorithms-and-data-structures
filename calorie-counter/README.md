@@ -46,4 +46,13 @@ In this practice project, you'll learn basic __regular expressions__, __template
 
 18. When the user inputs their daily calorie budget, the input field will only accept numerical values. However, if a number is entered with a `+` or `-` sign, you'll need to remove those characters. Start by declaring a `cleanInputString` function that takes a str parameter.
 
-NOTE: Values from an HTML `input` field are received as strings in JavaScript. You'll need to convert these strings into numbers before performing any calculations. Converting string values into numbers will be covered in a future step.
+	NOTE: Values from an HTML `input` field are received as strings in JavaScript. You'll need to convert these strings into numbers before performing any calculations. Converting string values into numbers will be covered in a future step.
+
+19. To match specific characters in a string, you can use Regular Expressions or "regex" for short. Regex in JavaScript is indicated by a pattern wrapped in forward slashes. The following example will match the string literal "hello":
+
+	```javascript
+	const regex = /hello/;
+	```
+
+	Declare a `regex` variable and assign it the value from the example above. In future steps, you will update this regex pattern to match specific characters needed for the calorie counter.
+
