@@ -687,7 +687,7 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
 
 71. Add a third object to the `locations` array. Give it the same properties as the other two objects.
 
-Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight slime'`, `'Fight fanged beast'`, and `'Go to town square'`. Set the `"button functions"` to an array with the variables `fightSlime`, `fightBeast`, and `goTown`. Set the text property to `"You enter the cave. You see some monsters."`.
+    Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight slime'`, `'Fight fanged beast'`, and `'Go to town square'`. Set the `"button functions"` to an array with the variables `fightSlime`, `fightBeast`, and `goTown`. Set the text property to `"You enter the cave. You see some monsters."`.
 
 72. Now that you have a `"cave"` location object, update your `goCave` function to call `update` and pass that new `"cave"` location. Remember that this is the third element in your `locations` array. Don't forget to remove your console.log call!
 
@@ -962,7 +962,7 @@ Set `name` to `"cave"`. Set `button text` to an array with the strings `'Fight s
 
 110. Now you can start the code to fight monsters. To keep your code organized, your `fightDragon` function has been moved for you to be near the other `fight` functions.
 
-Below your `weapons` array, define a `monsters` variable and assign it an array. Set that array to have three objects, each with a `name`, `level`, and `health` properties. The first object's values should be `"slime"`, `2`, and `15`, in order. The second should be `"fanged beast"`, `8`, and `60`. The third should be `"dragon"`, `20`, and `300`.
+    Below your `weapons` array, define a `monsters` variable and assign it an array. Set that array to have three objects, each with a `name`, `level`, and `health` properties. The first object's values should be `"slime"`, `2`, and `15`, in order. The second should be `"fanged beast"`, `8`, and `60`. The third should be `"dragon"`, `20`, and `300`.
 
 111. Fighting each type of monster will use similar logic. Create an empty function called `goFight` to manage this logic.
 
@@ -1031,7 +1031,7 @@ Below your `weapons` array, define a `monsters` variable and assign it an array.
     paragraph.style.display = 'block';
     ```
 
-Display the `monsterStats` element by updating the `display` property of the `style` property to `block`.
+    Display the `monsterStats` element by updating the `display` property of the `style` property to `block`.
 
     ```javascript
     function goFight() {
@@ -1072,9 +1072,9 @@ Display the `monsterStats` element by updating the `display` property of the `st
 
 124. The `Math` object in JavaScript contains static properties and methods for mathematical constants and functions. One of those is `Math.random()`, which generates a random number from `0` (inclusive) to `1` (exclusive). Another is `Math.floor()`, which rounds a given number down to the nearest integer.
 
-Using these, you can generate a random number within a range. For example, this generates a random number between `1` and `5`: `Math.floor(Math.random() * 5) + 1;`.
+    Using these, you can generate a random number within a range. For example, this generates a random number between `1` and `5`: `Math.floor(Math.random() * 5) + 1;`.
 
-Following this pattern, use the addition operator (`+`) to add a random number between `1` and the value of `xp` to your `monsterHealth -= weapons[currentWeaponIndex].power`.
+    Following this pattern, use the addition operator (`+`) to add a random number between `1` and the value of `xp` to your `monsterHealth -= weapons[currentWeaponIndex].power`.
 
     ```javascript
     function attack() {
