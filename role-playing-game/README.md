@@ -455,11 +455,11 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
 
 46. You have repetition in the `goTown` and `goStore` functions. Repetition in your code is a sign that you need another function. In the previous project, you learned how to work with function parameters. Function parameters act as placeholders for values that you pass to the function when you call it.
 
-Create an empty `update` function that takes a parameter called `location`. Place it before your `goTown` function.
+    Create an empty `update` function that takes a parameter called `location`. Place it before your `goTown` function.
 
 47. In your role playing game, you will be able to visit different locations like the store, the cave, and the __town square__. You will need to create a data structure that will hold the different locations.
 
-Use `const` to create a variable called `locations` and assign it an empty array.
+    Use `const` to create a variable called `locations` and assign it an empty array.
 
 48. Before you can begin to build out your `locations` array, you will first need to learn about __objects__. Objects are an important data type in JavaScript. The next few steps will be dedicated to learning about them so you will better understand how to apply them in your project.
 
