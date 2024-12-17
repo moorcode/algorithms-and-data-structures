@@ -1,3 +1,0 @@
-[submodule "rock-paper-scissors"]
-	path = rock-paper-scissors
-	url = git@github.com:moorcode/algorithms-and-data-structures.git
