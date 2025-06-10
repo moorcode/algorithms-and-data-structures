@@ -52,7 +52,9 @@ _
 
 	NOTE: Values from an HTML `input` field are received as strings in JavaScript. You'll need to convert these strings into numbers before performing any calculations. Converting string values into numbers will be covered in a future step.
 
-19. To match specific characters in a string, you can use Regular Expressions or "regex" for short. Regex in JavaScript is indicated by a pattern wrapped in forward slashes. The following example will match the string literal "hello":
+
+
+19. To match specific characters in a string, you can use __Regular Expressions__ or __"regex"__ for short. Regex in JavaScript is indicated by a pattern wrapped in forward slashes. The following example will match the string literal "hello":
 
 	```javascript
 	const regex = /hello/;
