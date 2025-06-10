@@ -1,4 +1,4 @@
-# Algoriths and Data Structures
+# Algorithms and Data Structures
 
 ## Calorie Counter ([freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/learn-form-validation-by-building-a-calorie-counter/step-1))
 
