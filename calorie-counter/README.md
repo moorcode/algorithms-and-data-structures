@@ -1,13 +1,13 @@
 # Algoriths and Data Structures
 
-## Calorie Counter, from [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/learn-form-validation-by-building-a-calorie-counter/step-1)
+## Calorie Counter ([freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/learn-form-validation-by-building-a-calorie-counter/step-1))
 
 > [!NOTE] 
 > Sometimes when you're coding a web application, you'll need to be able to accept input from a user. In this calorie counter project, you'll learn how to validate user input, perform calculations based on that input, and dynamically update your interface to display the results.
 >
 > __Checkpoints:__
-> __getElementById()__, __regular expressions__, __template literals__, __addEventListener()__
-
+> [___getElementById()__](#getElemenyById-anchor), __regular expressions__, __template literals__, __addEventListener()__
+_
 1. In this project, you'll learn to create a calorie counter form that enables users to input their daily calorie budget and the calorie counts of various meals. The form will then calculate and display whether the user is in a calorie deficit or surplus.
 
 	You have been provided with boilerplate CSS and HTML. However, you need to build your calorie counter form.
@@ -37,6 +37,8 @@
 12. Your form needs somewhere to display the results. Add an empty `div` element and give it an `id` of `output` and the `class` values of `output` and `hide`.
 
 13. Finally, you need to link your JavaScript file to your HTML. Create a `script` element to do so.
+
+<a name="getElemenyById-anchor"></a>
 
 14. It is time to start writing the script that makes your form work. To access an HTML element with a given `id` name, you can use the `getElementById()` method. Begin by getting the `form` element (using the `id`) and storing it in a variable called `calorieCounter`.
 
