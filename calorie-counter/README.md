@@ -6,7 +6,7 @@
 > Sometimes when you're coding a web application, you'll need to be able to accept input from a user. In this calorie counter project, you'll learn how to validate user input, perform calculations based on that input, and dynamically update your interface to display the results.
 >
 > __Checkpoints:__
-> [___getElementById()__](#getElemenyById-anchor), [__regular expressions__](regex-anchor), __template literals__, __addEventListener()__
+> [__getElementById()__](#getElemenyById-anchor), [__regular expressions__](regex-anchor), __template literals__, __addEventListener()__
 _
 1. In this project, you'll learn to create a calorie counter form that enables users to input their daily calorie budget and the calorie counts of various meals. The form will then calculate and display whether the user is in a calorie deficit or surplus.
 
@@ -54,7 +54,7 @@ _
 
 <a name="regex-anchor"></a>
 
-19. To match specific characters in a string, you can use __Regular Expressions__ or __"regex"__ for short. Regex in JavaScript is indicated by a pattern wrapped in forward slashes. The following example will match the string literal "hello":
+19. To match specific characters in a string, you can use __Regular Expressions__ or __"regex"__ for short. Regex in JavaScript is indicated by __a pattern wrapped in forward slashes__. The following example will match the string literal "hello":
 
 	```javascript
 	const regex = /hello/;
