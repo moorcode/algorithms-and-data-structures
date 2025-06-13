@@ -100,3 +100,7 @@
 	"hello".replace(/l/g, "1");
 	```
 	Use your `regex` to replace all instances of `+`, `-`, and a space in `str` with an empty string. Return this value.
+
+25. Now it is time to test out your `cleanInputString` function.
+
+	Inside your `cleanInputString` function, add a `console.log()` statement with two arguments. The first argument should be the string `"original string: "` and the second argument should be the `str` parameter.
