@@ -2,7 +2,7 @@
 
 ## Rock Paper Scissors
 
-In this mini project, you will review conditionals, functions, `getElementById`, and more. This project will give you an opportunity to solve small problems and get a better understanding of the basics.
+In this mini project, I reviewed conditionals, functions, `getElementById`, and more. This project gave me an opportunity to solve small problems and get a better understanding of the basics.
 
 1. The first step is to build out the function that will generate a random choice for the computer. The `getRandomComputerResult` function will be used to get the computer's choice. Inside that function, you should see an options array with `"Rock"`, `"Paper"`, and `"Scissors"`. Your task is to complete the `getRandomComputerResult` function so that it returns a random `option` from the options array.
 	
